@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: television_development
+  template: template0
+
+test:
+  adapter: postgresql
+  database: television_test
+  template: template0

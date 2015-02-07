@@ -1,0 +1,9 @@
+<div class="col-xs-8">
+  <h3>All TV Shows</h3>
+  <% @shows.each do |show| %>
+    <div class='show'>
+      <%= show.attribute('name') %>
+      <%= show.children.at(3) %>
+    </div>
+  <% end %>
+</div>
